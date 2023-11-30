@@ -1,0 +1,176 @@
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  margin: 0;
+  padding: 0;
+  background: #92AD94;
+}
+
+/* Header */
+
+.header {
+  background-color: black;
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px 20px;
+  color: white;
+  font-weight: bold;
+  font-size: 25px;
+  z-index: 15;
+}
+
+.header-toggle {
+  display: none;
+  background-color: #cccccc;
+  padding: 10px 20px;
+  border: 2px solid #595959;
+  border-radius: 5px;
+  color: #0e440f;
+  font-size: 20px;
+  text-decoration: none;
+}
+
+.header-content {
+  display: flex;
+  align-items: center;
+}
+
+.header-title {
+  margin-right: auto;
+  margin-left: auto;
+}
+
+.header-button-sobre {
+  text-decoration: none;
+  padding: 10px 20px;
+  font-size: 20px;
+  background-color: #cccccc;
+  color: #000000;
+  border: 2px solid #cccccc;
+  border-radius: 5px;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+.menu-toggle {
+  cursor: pointer;
+}
+
+/* Estilos para o MenuLateral */
+
+.menu-lateral {
+  background-color: #222;
+  color: white; 
+  padding: 100px; 
+  position: fixed; 
+  top: 0;
+  left: 0; 
+  width: 250px; 
+  height: 100%; 
+  transform: translateX(-100%);
+  transition: transform 0.3s;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  display: none;
+  z-index: 10;
+}
+
+.menu-lateral.aberto {
+  display: flex;
+}
+
+.menu-lateral .button {
+  width: 170px; 
+  margin-bottom: 10px;
+}
+
+/* Botões Principais (index.html) */
+
+.bvoltar {
+  position: fixed;
+  top: 10px;
+  left: 10px;
+  color: #00bdba;
+  font-size: 20px;
+  text-decoration: none; /* Remover sublinhado do link */
+}
+
+
+.button-container {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  justify-content: center;
+  align-items: center;
+  gap: 20px 20px;
+}
+
+.button {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 10px 20px;
+  font-size: 20px;
+  background-color: #599768;
+  color: #ffffff;
+  border: 2px solid #000000;
+  text-decoration: none;
+  font-weight: bold;
+  border-radius: 10px;
+}
+
+.button:active {
+  background-color: #ffffff;
+  color: #000000;
+}
+
+.button-sobre-mobile {
+  display: none;
+}
+
+/* Tela de telefone */
+
+@media screen and (max-width: 800px) {
+  body {
+    align-items: flex-start;
+    width: 600px;
+  }
+
+  .header {
+    display: none;
+  }
+
+  .menu {
+    display: none;
+  }
+
+  .button-container {
+    justify-content: center;
+    align-items: center;
+    margin-top: 30%;
+    margin-left: 40px;
+  }
+
+  .button-sobre-mobile {
+    display: block;
+    position: absolute;
+    top: 20px;
+    margin-left: 400px;
+    padding: 10px 20px;
+    font-size: 20px;
+    background-color: #cccccc;
+    color: #000000;
+    border: 2px solid #cccccc;
+    border-radius: 5px;
+    text-decoration: none;
+    font-weight: bold;
+  }
+}
