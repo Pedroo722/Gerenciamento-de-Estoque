@@ -1,17 +1,17 @@
-## Running React on Repl.it
+## Sistema de Gerenciamento de Estoque
 
-[React](https://reactjs.org/) is a popular JavaScript library for building user interfaces.
+<p align="center">
+  <img src="https://github.com/Pedroo722/Gerenciamento-de-Estoque/assets/132232273/8da0cc0e-d3e0-40fd-86ea-c73a64f91af7" width="1000px" alt="Home">
+</p>
 
-[Vite](https://vitejs.dev/) is a blazing fast frontend build tool that includes features like Hot Module Reloading (HMR), optimized builds, and TypeScript support out of the box.
+## Sobre 
 
-Using the two in conjunction is one of the fastest ways to build a web app.
+Código Front-end criado durante o Projeto de Extensão em soluções tecnológicas na cidade de Esperança e região - IDEAÇÂO (2023).
 
-### Getting Started
-- Hit run
-- Edit [App.jsx](#src/App.jsx) and watch it live update!
+Nesse projeto, foi atendida um microempreendedora local da cidade de Esperança, e então foi desenvolvido um sistema de informação para atender problemas do dia a dia encontrados no negócio da microempreendedora. O sistema se tratou de sistema gerenciador de clientes, produtos e registros de vendas. 
 
-By default, Replit runs the `dev` script, but you can configure it by changing the `run` field in the [configuration file](#.replit). Here are the vite docs for [serving production websites](https://vitejs.dev/guide/build.html)
+O desenvolvimento do projeto ocorreu entre os meses de maio até novembro, sendo entregue para a cliente no início do mês de dezembro. O front-end foi desenvolvido utilizando o framework React.js, fazendo uso de bibliotecas como Ant Design, React Router, Axios e Redux. O back-end foi desenvolvido utilizando o Strapi.io.
 
-### Typescript
+### Esquema de Banco de Dados (Diagrama UML)
 
-Just rename any file from `.jsx` to `.tsx`. You can also try our [TypeScript Template](https://replit.com/@replit/React-TypeScript)
+![esquema](image.png)
