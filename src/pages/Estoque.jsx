@@ -633,7 +633,7 @@ const Estoque = () => {
       .then((response) => {
         if (response.status === 200) {
           const produtoExcluidoNome = response.data.data.attributes.descricao;
-          const vendasRelacionadas = response.data.data.attributes.item_vendas.data;
+          const vendasRelacionadas = response.data.data.attributes.itens_venda.data;
           console.log('Produtos relacionados à categoria:', vendasRelacionadas);
 
           if (vendasRelacionadas .length > 0) {
