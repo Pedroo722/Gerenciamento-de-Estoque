@@ -23,7 +23,7 @@ const Login = () => {
   };
 
   const logar = () => {
-    axios.post('https://back.pedrohenriq1921.repl.co/api/auth/local', formData)
+    axios.post('hhttps://ideacao-backend-8ea0b764c21a.herokuapp.com/api/auth/local', formData)
       .then((response) => {
         if (response.status === 200) {
           dispatch(definirToken(response.data.jwt));
