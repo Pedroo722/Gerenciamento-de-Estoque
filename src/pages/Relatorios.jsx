@@ -487,7 +487,7 @@ const TableVendas = ({ data, setData, atualizaLista, config }) => {
                   type="number"
                   id={`editQuantidadeVendida${index}`}
                   style={{
-                    marginLeft: '25.5px',
+                    marginLeft: '20px',
                   }}
                   defaultValue={produto.quantidade_vendida}
                   onChange={(e) => (produto.quantidade_vendida = parseInt(e.target.value))}
