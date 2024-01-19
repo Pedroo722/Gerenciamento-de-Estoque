@@ -1,0 +1,21 @@
+{
+  "files": {
+    "main.css": "/gerenciamento-de-estoque/static/css/main.b22618d4.css",
+    "main.js": "/gerenciamento-de-estoque/static/js/main.f7ea1419.js",
+    "static/js/787.e2ba7bde.chunk.js": "/gerenciamento-de-estoque/static/js/787.e2ba7bde.chunk.js",
+    "static/media/Cadastro.png": "/gerenciamento-de-estoque/static/media/Cadastro.a2b2e287442571f6e07d.png",
+    "static/media/Vendas.png": "/gerenciamento-de-estoque/static/media/Vendas.04571300790e77533074.png",
+    "static/media/Estoque.png": "/gerenciamento-de-estoque/static/media/Estoque.b0d5b8392cf562c1c528.png",
+    "static/media/Clientes.png": "/gerenciamento-de-estoque/static/media/Clientes.625680210ac2214803e3.png",
+    "static/media/iconeifpb.png": "/gerenciamento-de-estoque/static/media/iconeifpb.fd8d3854753c68df0933.png",
+    "static/media/iconelogin.png": "/gerenciamento-de-estoque/static/media/iconelogin.509da15bc18266d017eb.png",
+    "index.html": "/gerenciamento-de-estoque/index.html",
+    "main.b22618d4.css.map": "/gerenciamento-de-estoque/static/css/main.b22618d4.css.map",
+    "main.f7ea1419.js.map": "/gerenciamento-de-estoque/static/js/main.f7ea1419.js.map",
+    "787.e2ba7bde.chunk.js.map": "/gerenciamento-de-estoque/static/js/787.e2ba7bde.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.b22618d4.css",
+    "static/js/main.f7ea1419.js"
+  ]
+}
