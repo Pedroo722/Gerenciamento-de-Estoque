@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/Gerenciamento-de-Estoque/static/css/main.eef883f6.css",
-    "main.js": "/Gerenciamento-de-Estoque/static/js/main.b25dec04.js",
+    "main.js": "/Gerenciamento-de-Estoque/static/js/main.c184faed.js",
     "static/js/787.caafea52.chunk.js": "/Gerenciamento-de-Estoque/static/js/787.caafea52.chunk.js",
     "static/media/Cadastro.png": "/Gerenciamento-de-Estoque/static/media/Cadastro.a2b2e287442571f6e07d.png",
     "static/media/Vendas.png": "/Gerenciamento-de-Estoque/static/media/Vendas.04571300790e77533074.png",
@@ -11,11 +11,11 @@
     "static/media/iconelogin.png": "/Gerenciamento-de-Estoque/static/media/iconelogin.509da15bc18266d017eb.png",
     "index.html": "/Gerenciamento-de-Estoque/index.html",
     "main.eef883f6.css.map": "/Gerenciamento-de-Estoque/static/css/main.eef883f6.css.map",
-    "main.b25dec04.js.map": "/Gerenciamento-de-Estoque/static/js/main.b25dec04.js.map",
+    "main.c184faed.js.map": "/Gerenciamento-de-Estoque/static/js/main.c184faed.js.map",
     "787.caafea52.chunk.js.map": "/Gerenciamento-de-Estoque/static/js/787.caafea52.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.eef883f6.css",
-    "static/js/main.b25dec04.js"
+    "static/js/main.c184faed.js"
   ]
 }
