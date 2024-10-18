@@ -29,6 +29,6 @@ O desenvolvimento do projeto ocorreu oficialmente entre os meses de maio até de
 </div>
 
 
-## Esquema de Banco de Dados (Diagrama UML)
+## Esquema de Banco de Dados
 
 ![image](https://github.com/Pedroo722/Gerenciamento-de-Estoque/assets/132232273/5402f8c0-037c-4675-ac0b-5f2972464bcd)
